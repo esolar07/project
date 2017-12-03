@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about', 'AboutPageController@about');
+
+Route::get('/work', function () {
+    return view('aboutVersion');
+});
+
+
+Route::get('/contact', function () {
+    return '<h1>Contact page</h1>';
+});
+
+
+
+
+
+
+
+
+
