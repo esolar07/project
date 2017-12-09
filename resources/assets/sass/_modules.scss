@@ -1,8 +1,28 @@
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  @media screen and (min-width: 600px){
+    width: 75%;
+  }
+  &__item {
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(80% / 4);
+    color: $text-color;
+    text-align: center;
+  }
+}
+
+
 
 .box{
-  background: #000;
+  background: $body-bg;
   outline-style: solid;
-  outline-color:#000;
+  outline-color:red;
   outline-width: 1vw;
   color: white;
   text-align: center;

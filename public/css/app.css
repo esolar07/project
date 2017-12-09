@@ -26,26 +26,63 @@ a {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 10% auto 10%;
-  height: 100vh;
+  height: 100%;
+}
+
+.l-pg-header {
+  width: 100%;
 }
 
 .l-pg-body {
+  background: #000000;
+}
+
+.l-welcome-container {
   display: grid;
   grid-gap: 1%;
   grid-template-rows: 5vw;
-  grid-auto-rows: 9vw;
+  grid-auto-rows: auto;
   grid-template-columns: 1fr repeat(6, 3fr) 1fr;
-  height: 90vh;
-  background: #000 url("https://consequenceofsound.files.wordpress.com/2015/11/tupac-e1497465405190.jpg?quality=80&w=1200");
+  height: auto;
+  background: #000 url("http://eddiesolar.com/images/me2.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+  .menu {
+    width: 75%;
+  }
+}
+
+.menu__item {
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(80% / 4);
+  color: #000000;
+  text-align: center;
+}
+
 .box {
-  background: #000;
+  background: #000000;
   outline-style: solid;
-  outline-color: #000;
+  outline-color: red;
   outline-width: 1vw;
   color: white;
   text-align: center;
