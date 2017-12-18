@@ -18,15 +18,20 @@
 }
 
 
+.welcome-section__right{
+  grid-area: right;
+  background: blue;
+  border:2px solid black;
+}
 
-.box{
-  background: $body-bg;
-  outline-style: solid;
-  outline-color:red;
-  outline-width: 1vw;
-  color: white;
-  text-align: center;
-  &__transparent{
-    background-color:rgba(64,67,78,0.4);
-  }
+.welcome-section__middel{
+  grid-area: middle;
+  background: green;
+  border:2px solid black;
+}
+
+.welcome-section__left{
+  grid-area: left;
+  background: red;
+  border:2px solid black;
 }

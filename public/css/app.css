@@ -25,29 +25,19 @@ a {
 .l-pg-container {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 10% auto 10%;
+  grid-template-rows: 15% auto 10%;
   height: 100%;
 }
 
-.l-pg-header {
-  width: 100%;
-}
-
 .l-pg-body {
-  background: #000000;
+  background: #D8E6F2;
 }
 
 .l-welcome-container {
   display: grid;
-  grid-gap: 1%;
-  grid-template-rows: 5vw;
-  grid-auto-rows: auto;
-  grid-template-columns: 1fr repeat(6, 3fr) 1fr;
-  height: auto;
-  background: #000 url("http://eddiesolar.com/images/me2.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-areas: "left left left" "middle middle middle" "right right right";
 }
 
 .menu {
@@ -79,16 +69,21 @@ a {
   text-align: center;
 }
 
-.box {
-  background: #000000;
-  outline-style: solid;
-  outline-color: red;
-  outline-width: 1vw;
-  color: white;
-  text-align: center;
+.welcome-section__right {
+  grid-area: right;
+  background: blue;
+  border: 2px solid black;
 }
 
-.box__transparent {
-  background-color: rgba(64, 67, 78, 0.4);
+.welcome-section__middel {
+  grid-area: middle;
+  background: green;
+  border: 2px solid black;
+}
+
+.welcome-section__left {
+  grid-area: left;
+  background: red;
+  border: 2px solid black;
 }
 
