@@ -23,7 +23,8 @@ $line-height-base: 1.6;
 $text-color: #000000;
 
 // Navbar
-$navbar-default-bg: #fff;
+$navbar-default-bg: rgba(25,52,65, .4);
+$navbar-item-br: rgba(62,96,111, .4);
 
 // Buttons
 $btn-default-color: $text-color;

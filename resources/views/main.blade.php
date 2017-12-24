@@ -22,9 +22,9 @@
                 @yield('content')
             </main>
 
-            <footer class="l-pg-footer">
-                @include('layouts.footer')
-            </footer>
+            {{--<footer class="l-pg-footer">--}}
+                {{--@include('layouts.footer')--}}
+            {{--</footer>--}}
 
         </section>
     </body>

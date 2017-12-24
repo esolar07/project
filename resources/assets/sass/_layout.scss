@@ -1,12 +1,10 @@
 .l-pg-container{
-  display:grid;
-  grid-template-columns: auto;
-  grid-template-rows: 15% auto 10%;
-  height: 100%;
+
 }
 
 
 .l-pg-header{
+  width: 100%;
 }
 
 .l-pg-body{
@@ -15,13 +13,6 @@
 
 
 .l-welcome-container{
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 150px 150px 150px;
-  grid-template-areas:
-      "left left left"
-      "middle middle middle"
-      "right right right"
 }
 
 .l-pg-footer{
