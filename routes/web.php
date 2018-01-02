@@ -23,6 +23,8 @@ Route::get('/work', function () {
 });
 
 
+Route::get('/speaking', 'SpeakingPageController@speaking');
+
 Route::get('/contact', function () {
     return '<h1>Contact page</h1>';
 });

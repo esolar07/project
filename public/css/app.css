@@ -11073,6 +11073,7 @@ body {
   color: #636b6f;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
+  background: url("/../images/bg.png") #fff;
 }
 
 *,
@@ -11088,10 +11089,6 @@ a {
 
 .l-pg-header {
   width: 100%;
-}
-
-.l-pg-body {
-  background: #D8E6F2;
 }
 
 .menu {
