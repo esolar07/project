@@ -14,11 +14,11 @@
 
         <section class="l-pg-container">
 
-            <header class="l-pg-header">
+            <header class="pg-header">
                 @include('layouts.nav')
             </header>
 
-            <main class="l-pg-body">
+            <main class="pg-body">
                 @yield('content')
             </main>
 
