@@ -12,24 +12,15 @@
 */
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Controller@welcome');
 
-Route::get('/about', 'AboutPageController@about');
+Route::get('/about', 'Controller@about');
 
-Route::get('/work', function () {
-    return view('aboutVersion');
-});
+Route::get('/work', 'Controller@work');
 
+Route::get('/speaking', 'Controller@speaking');
 
-Route::get('/speaking', 'SpeakingPageController@speaking');
-
-Route::get('/contact', function () {
-    return '<h1>Contact page</h1>';
-});
-
-
+Route::get('/contact', 'Contoller@contact');
 
 
 

@@ -6,7 +6,8 @@ html, body {
   color: #636b6f;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  background: url('/../images/bg.png') #fff;
+  background: url('/../images/bg.png')
+//   background: linear-gradient(to right, rgba(39, 64, 70, .5), rgba(230, 218, 218, .5), rgba(39, 64, 70, .5));
 }
 
 *, *:before, *:after{
